@@ -4,8 +4,6 @@ const userWord = prompt('Inserisci una parola');
 // Funzione per capire se la parola inserita è palindroma
 function isPalindrome(userWord) {
     // parola al contrario
-    const reversedWord = userWord.split('').reverse().join('');
-    // Controllo se la parola originale è uguale a quella invertita
     return userWord === reversedWord;
 }
 
